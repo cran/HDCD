@@ -1,0 +1,81 @@
+@article{kovacs_seeded_2022,
+	title = {Seeded binary segmentation: a general methodology for fast and optimal changepoint detection},
+	volume = {110},
+	issn = {1464-3510},
+	url = {https://doi.org/10.1093/biomet/asac052},
+	doi = {10.1093/biomet/asac052},
+	abstract = {We propose seeded binary segmentation for large-scale changepoint detection problems. We construct a deterministic set of background intervals, called seeded intervals, in which single changepoint candidates are searched for. The final selection of changepoints based on these candidates can be done in various ways, adapted to the problem at hand. The method is thus easy to adapt to many changepoint problems, ranging from univariate to high dimensional. Compared to recently popular random background intervals, seeded intervals lead to reproducibility and much faster computations. For the univariate Gaussian change in mean set-up, the methodology is shown to be asymptotically minimax optimal when paired with appropriate selection criteria. We demonstrate near-linear runtimes and competitive finite sample estimation performance. Furthermore, we illustrate the versatility of our method in high-dimensional settings.},
+	number = {1},
+	journal = {Biometrika},
+	author = {Kovács, S and Bühlmann, P and Li, H and Munk, A},
+	month = oct,
+	year = {2022},
+	note = {\_eprint: https://academic.oup.com/biomet/article-pdf/110/1/249/49160138/asac052\_supplementary\_data.pdf},
+	pages = {249--256},
+}
+
+
+@article{pilliat_optimal_2022,
+	author = {Emmanuel Pilliat and Alexandra Carpentier and Nicolas Verzelen},
+	title = {{Optimal multiple change-point detection for high-dimensional data}},
+	volume = {17},
+	journal = {Electronic Journal of Statistics},
+	number = {1},
+	publisher = {Institute of Mathematical Statistics and Bernoulli Society},
+	pages = {1240 -- 1315},
+	keywords = {Gaussian noise, Minimax rate, multivariate time series},
+	year = {2023}
+}
+
+
+@article{wang_high_2018,
+	title = {High dimensional change point estimation via sparse projection},
+	volume = {80},
+	issn = {1467-9868},
+	url = {https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/rssb.12243},
+	doi = {10.1111/rssb.12243},
+	abstract = {Change points are a very common feature of ‘big data’ that arrive in the form of a data stream. We study high dimensional time series in which, at certain time points, the mean structure changes in a sparse subset of the co-ordinates. The challenge is to borrow strength across the co-ordinates to detect smaller changes than could be observed in any individual component series. We propose a two-stage procedure called inspect for estimation of the change points: first, we argue that a good projection direction can be obtained as the leading left singular vector of the matrix that solves a convex optimization problem derived from the cumulative sum transformation of the time series. We then apply an existing univariate change point estimation algorithm to the projected series. Our theory provides strong guarantees on both the number of estimated change points and the rates of convergence of their locations, and our numerical studies validate its highly competitive empirical performance for a wide range of data-generating mechanisms. Software implementing the methodology is available in the R package InspectChangepoint.},
+	language = {en},
+	number = {1},
+	urldate = {2021-09-09},
+	journal = {Journal of the Royal Statistical Society: Series B (Statistical Methodology)},
+	author = {Wang, Tengyao and Samworth, Richard J.},
+	year = {2018},
+	keywords = {Change point estimation, Convex optimization, Dimension reduction, Piecewise stationary, Segmentation, Sparsity},
+	pages = {57--83}
+}
+
+
+@article{cho_multiple-change-point_2015,
+	title = {Multiple-change-point detection for high dimensional time series via sparsified binary segmentation},
+	volume = {77},
+	issn = {1369-7412},
+	url = {https://www.jstor.org/stable/24774746},
+	abstract = {Time series segmentation, which is also known as multiple-change-point detection, is a well-established problem. However, few solutions have been designed specifically for high dimensional situations. Our interest is in segmenting the second-order structure of a high dimensional time series. In a generic step of a binary segmentation algorithm for multivariate time series, one natural solution is to combine cumulative sum statistics obtained from local periodograms and cross-periodograms of the components of the input time series. However, the standard 'maximum' and 'average' methods for doing so often fail in high dimensions when, for example, the change points are sparse across the panel or the cumulative sum statistics are spuriously large. We propose the sparsified binary segmentation algorithm which aggregates the cumulative sum statistics by adding only those that pass a certain threshold. This 'sparsifying' step reduces the influence of irrelevant noisy contributions, which is particularly beneficial in high dimensions. To show the consistency of sparsified binary segmentation, we introduce the multivariate locally stationary wavelet model for time series, which is a separate contribution of this work.},
+	number = {2},
+	urldate = {2022-04-11},
+	journal = {Journal of the Royal Statistical Society. Series B (Statistical Methodology)},
+	author = {Cho, Haeran and Fryzlewicz, Piotr},
+	year = {2015},
+	note = {Publisher: [Royal Statistical Society, Wiley]},
+	pages = {475--507},
+}
+
+@Manual{inspectpackage,
+    title = {InspectChangepoint: High-Dimensional Changepoint Estimation via Sparse Projection},
+    author = {Tengyao Wang and Richard Samworth},
+    year = {2020},
+    note = {R package version 1.1},
+    url = {https://CRAN.R-project.org/package=InspectChangepoint},
+  }
+
+
+@misc{moen2023efficient,
+      title={Efficient sparsity adaptive changepoint estimation}, 
+      author={Per August Jarval Moen and Ingrid Kristine Glad and Martin Tveten},
+      year={2023},
+      eprint={Arxiv preprint, 2306.04702},
+      archivePrefix={arXiv},
+      url = {https://doi.org/10.48550/arXiv.2306.04702},
+      primaryClass={stat.ME}
+}
