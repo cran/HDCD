@@ -1,4 +1,4 @@
-a8e624e0ea86fff6137d3a718007ce4b *DESCRIPTION
+f3a742903c722d442a40dc1a859d81c7 *DESCRIPTION
 35b6f6b864671846caf85db896444af3 *NAMESPACE
 3598dd0af0df4afdf53e439f698fcf56 *R/CUSUM.R
 c904b730b9316efc48d60672c36eb2e2 *R/ESAC.R
@@ -12,8 +12,15 @@ d429a7a329e00dcbc4ca5d068a0b1e0a *R/rescale_variance.R
 ed9ed731c03a3dca4ebecff9414a346e *R/single_Inspect.R
 f33aa00ba1071c2803d81527c84e9214 *R/single_SBS.R
 557964944a75af29ae5b27dd31002ca6 *README.md
-096fa7ce4a2fbc3fc56438b3a862f6f0 *build/partial.rdb
+1861473e6b617d65eda911a787779e18 *build/partial.rdb
+fee890e21d2aa5eff7a9fa3a870c4211 *inst/README.txt
 de6a528f5451430f7406ee60e3f45d40 *inst/REFERENCES.bib
+aa1daf55f8c3adf20a64ee5b7a8b1e3f *inst/multiple_changepoint_simulation.R
+33ef602381abdd78a0bd4973f6ef1319 *inst/multiple_changepoint_simulation_runtime.R
+bed5b437e05900799febd1d2cea2d43d *inst/multiple_changepoint_simulation_unevenmeanchange.R
+de16f11af182e4ab16f5b23d92035065 *inst/multiple_changepoint_simulation_variants_of_ESAC.R
+475dd6a82c9780bb60d678405adcce3f *inst/single_changepoint_simulation.R
+ea25822e4e23ad74f669a2e7875d1806 *inst/single_changepoint_simulation_misspecifiedmodel.R
 8ac62770598f92ad637d24d3b0d628f5 *man/ARI.Rd
 41d414aece5ab3212cb3dd0bf9849665 *man/CUSUM.Rd
 a2c77e1ebb9e8d2ae5f40556f0bcb5ce *man/ESAC.Rd
@@ -35,10 +42,9 @@ e840463dc0069ff3c208792dc895690c *man/single_ESAC.Rd
 ef2bf07ca10e5fe59e2cd444fb3fa3fc *man/single_Inspect.Rd
 5003b2fb9d1cb1007321d876a402e8d2 *man/single_SBS.Rd
 0dbff877dc7fcd6339ee08809343feff *man/single_SBS_calibrate.Rd
-36b857b61e683aff7f2515a95af61eac *src/Makevars
 e9549381b44185c82745d655db064d5c *src/esac_code.c
 de8e79d24ba1a97eeee2bab65083af1b *src/header.h
-5285dc96cf5c0117a88bde6906e0f246 *src/helpfunctions.c
+3c0b481034ad7a7a3add7a3d15d20215 *src/helpfunctions.c
 041e74ba809f7c09cc708e386af03fac *src/inspect_code.c
 521c90746156dcda6fabbe259a099a40 *src/pilliat_method.c
 7c22b1b500cab25872924e218f1645f5 *src/registerDynamicSymbol.c

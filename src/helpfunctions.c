@@ -40,14 +40,15 @@ SEXP matmult(SEXP AI, SEXP BI, SEXP r1I, SEXP c1I, SEXP r2I, SEXP c2I){
     int r2 = *INTEGER(r2I);
 
     UNPROTECT(4);
-    SEXP out = (allocVector(NILSXP,1));
+    
 
     if(c1 != r2){
         Rprintf("matrix dims do not match");
+        SEXP out = (allocVector(NILSXP,1));
         return out;
     }
 
-    out = PROTECT(allocVector(REALSXP, r1*c2));
+    SEXP out = PROTECT(allocVector(REALSXP, r1*c2));
     double * res = REAL(out);
 
     internal_matmult(A,B, res, r1,c1,r2,c2);
